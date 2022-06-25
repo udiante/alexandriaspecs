@@ -1,2 +1,2 @@
 # alexandriaspecs
-Private Alexandria Podspecs
+Alexandria Podspecs
