@@ -26,7 +26,7 @@ s.swift_version             = "5.0"
 s.homepage         = 'https://github.com/udiante/AFWUI'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'Alejandro Quibus' => 'udiante@gmail.com' }
+s.author           = "Alejandro Q"
 s.source           = { :git => 'https://github.com/udiante/AFWUI.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
