@@ -33,10 +33,11 @@ s.source           = { :git => 'https://github.com/udiante/AFWUI.git', :tag => s
 s.ios.deployment_target = '16.0'
 
 s.source_files  = "#{s.module_name}", "#{s.module_name}/**/*.{h,m,swift}"
+s.exclude_files = [ '#{s.module_name}/Exclude/, #{s.module_name}/Info.plist, README.md, LICENSE']
 
-#s.resource_bundles = {
-#   'AFWUI' => ['AFWUI/Assets/*.png']
-#}
+s.resource_bundles = {
+   'AFWUI_Resources' => ["#{s.module_name}/**/*.{png,jpeg,jpg,storyboard,xib,json,html,xcstrings,lproj}" , "#{s.module_name}/**/*.{xcassets,imageset,json}", "#{s.module_name}/Localization/*.lproj"]
+}
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
